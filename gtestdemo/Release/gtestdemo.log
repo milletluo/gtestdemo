@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/2/13 19:47:27。
+     1>项目“D:\code\gtestdemo\gtestdemo\gtestdemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\gtestdemo\Release\gtestdemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Program Files\Visual Leak Detector\lib\Win32" /LIBPATH:"C:\Program Files\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\gtestdemo\Release\gtestdemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\gtestdemo\Release\gtestdemo.lib" /MACHINE:X86 /SAFESEH Release\gtestdemo.obj
+         Release\stdafx.obj
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl testing::internal::IsTrue(bool)" (?IsTrue@internal@testing@@YA_N_N@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall testing::Message::Message(void)" (??0Message@testing@@QAE@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: static class testing::UnitTest * __cdecl testing::UnitTest::GetInstance(void)" (?GetInstance@UnitTest@testing@@SAPAV12@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall testing::UnitTest::Run(void)" (?Run@UnitTest@testing@@QAEHXZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "protected: __thiscall testing::Test::Test(void)" (??0Test@testing@@IAE@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall testing::Test::~Test(void)" (??1Test@testing@@UAE@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "class testing::TestInfo * __cdecl testing::internal::MakeAndRegisterTestInfo(char const *,char const *,char const *,char const *,struct testing::internal::CodeLocation,void const *,void (__cdecl*)(void),void (__cdecl*)(void),class testing::internal::TestFactoryBase *)" (?MakeAndRegisterTestInfo@internal@testing@@YAPAVTestInfo@2@PBD000UCodeLocation@12@PBXP6AXXZ3PAVTestFactoryBase@12@@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "void const * __cdecl testing::internal::GetTestTypeId(void)" (?GetTestTypeId@internal@testing@@YAPBXXZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall testing::internal::AssertHelper::operator=(class testing::Message const &)const " (??4AssertHelper@internal@testing@@QBEXABVMessage@2@@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall testing::internal::AssertHelper::AssertHelper(enum testing::TestPartResult::Type,char const *,int,char const *)" (??0AssertHelper@internal@testing@@QAE@W4Type@TestPartResult@2@PBDH1@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall testing::internal::AssertHelper::~AssertHelper(void)" (??1AssertHelper@internal@testing@@QAE@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "void __cdecl testing::InitGoogleTest(int *,char * *)" (?InitGoogleTest@testing@@YAXPAHPAPAD@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "class testing::AssertionResult __cdecl testing::AssertionSuccess(void)" (?AssertionSuccess@testing@@YA?AVAssertionResult@1@XZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "class testing::AssertionResult __cdecl testing::internal::EqFailure(char const *,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (?EqFailure@internal@testing@@YA?AVAssertionResult@2@PBD0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N@Z)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall testing::Test::SetUp(void)" (?SetUp@Test@testing@@MAEXXZ)
+     1>gtestdemo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall testing::Test::TearDown(void)" (?TearDown@Test@testing@@MAEXXZ)
+     1>D:\code\gtestdemo\Release\gtestdemo.exe : fatal error LNK1120: 16 个无法解析的外部命令
+     1>已完成生成项目“D:\code\gtestdemo\gtestdemo\gtestdemo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.24
